@@ -1,5 +1,19 @@
 {
+  "name": "food-ordering-system",
+  "version": "1.0.0",
+  "description": "Terminal-based Food Ordering & Billing System built with TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
   "devDependencies": {
-    "typescript": "^7.0.2"
+    "typescript": "^7.0.2",
+    "@types/node": "^22.0.0"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "@inquirer/prompts": "^7.0.0"
   }
 }
